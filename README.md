@@ -54,6 +54,12 @@ Generative AI Engineer with 5+ years in IT, building retrieval systems, agents, 
 
 ## Featured projects
 
+### [llm-guard-platform](https://github.com/Navneethsnehal/llm-guard-platform)
+
+[![CI](https://github.com/Navneethsnehal/llm-guard-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Navneethsnehal/llm-guard-platform/actions/workflows/ci.yml)
+
+A production LLM gateway with an OpenAI-compatible API. Policy-based routing sends traffic across providers with fallbacks and circuit breakers, in front of a semantic cache and per-tenant rate limits and budgets. A composable guardrails pipeline covers PII redaction, prompt-injection and jailbreak detection, policy rules, and grounding checks. Automated red-teaming reports 0% attack success across 28 attack cases, and releases are eval-gated in CI with bootstrap significance testing. Observability is OpenTelemetry, Prometheus, and Grafana, with an audit log. Benchmarks are about 470 req/s. 43 tests, about 95% coverage.
+
 ### [fin-doc-analyst](https://github.com/Navneethsnehal/fin-doc-analyst)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/Navneethsnehal/fin-doc-analyst/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/Navneethsnehal/fin-doc-analyst/actions/workflows/ci.yml)
