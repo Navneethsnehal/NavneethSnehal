@@ -60,6 +60,12 @@ Generative AI Engineer with 5+ years in IT, building retrieval systems, agents, 
 
 An agentic RAG analyst for financial documents. Ask about a bank statement, loan agreement, or insurance policy and a LangGraph agent answers with page-level citations, or says when the corpus does not support an answer. Retrieval is hybrid BM25 plus pgvector, combined with reciprocal rank fusion and reranking. Prompt-injection guardrails and PII redaction run on inputs and outputs. RAGAS-style evals are gated in GitHub Actions. The app is FastAPI and Streamlit, packaged with Docker.
 
+### [insurance-claims-agents](https://github.com/Navneethsnehal/insurance-claims-agents)
+
+[![CI](https://github.com/Navneethsnehal/insurance-claims-agents/actions/workflows/ci.yml/badge.svg)](https://github.com/Navneethsnehal/insurance-claims-agents/actions/workflows/ci.yml)
+
+A multi-agent LangGraph system for insurance claims triage. A supervisor routes each claim to intake and extraction, coverage (hybrid retrieval with policy clause citations), fraud (gradient boosting with explanations, ROC AUC 0.90), and payout. High-value or high-fraud claims stop for human review. Guardrails redact PII and detect prompt injection, and an eval harness is gated in CI. Served with FastAPI and a Streamlit reviewer dashboard, and packaged with Docker. 39 tests, about 91% coverage.
+
 ## Experience
 
 **Generative AI Engineer** · Regions Bank · Plano, Texas · Jul 2025 – Present
